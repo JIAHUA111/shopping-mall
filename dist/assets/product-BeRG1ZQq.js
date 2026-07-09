@@ -1,0 +1,1 @@
+import{d as e}from"./index-TLsWvLW2.js";function t(){return e.get(`/categories`)}function n(t){return e.get(`/products`,{params:t})}function r(t){return e.get(`/products/${t}`)}function i(){return e.get(`/flashsales`)}function a(t){return e.post(`/flashsales/${t}/buy`)}export{n as a,r as i,t as n,i as r,a as t};

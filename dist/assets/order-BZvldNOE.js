@@ -1,0 +1,1 @@
+import{d as e}from"./index-TLsWvLW2.js";function t(t){return e.post(`/orders`,t)}function n(t){return e.get(`/orders`,{params:t})}function r(t){return e.get(`/orders/${t}`)}function i(t,n){return e.put(`/orders/${t}`,n)}function a(t){return e.delete(`/orders/${t}`)}function o(t){return e.delete(`/orders/${t}`)}export{n as a,r as i,t as n,i as o,a as r,o as t};
